@@ -8,6 +8,59 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="E4x-L2-acH">
+            <objects>
+                <viewController id="MvI-U5-eia" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pp0-7k-ZJh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZMK-P2-xPQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Xr-Bh-lZN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="MmM-d8-ATW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="VyK-tw-Chv">
+                                        <rect key="frame" x="32.333333333333343" y="762" width="310.33333333333326" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gef-A8-gjK">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
+                                                <state key="normal" title="Previous"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsk-KA-cJG">
+                                                <rect key="frame" x="142" y="0.0" width="40" height="30"/>
+                                                <state key="normal" title="Share"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xe-vS-Fug">
+                                                <rect key="frame" x="278.33333333333337" y="0.0" width="32" height="30"/>
+                                                <state key="normal" title="Next"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D0GQ9Jl.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aci-zG-lbI">
+                                        <rect key="frame" x="-44" y="0.0" width="463" height="463"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VyK-tw-Chv" firstAttribute="centerX" secondItem="2Xr-Bh-lZN" secondAttribute="centerX" id="3kq-FR-U5W"/>
+                            <constraint firstAttribute="bottom" secondItem="VyK-tw-Chv" secondAttribute="bottom" constant="20" id="Uhi-Pt-x4A"/>
+                            <constraint firstItem="aci-zG-lbI" firstAttribute="centerX" secondItem="2Xr-Bh-lZN" secondAttribute="centerX" id="asM-Nm-eLI"/>
+                            <constraint firstItem="aci-zG-lbI" firstAttribute="top" secondItem="2Xr-Bh-lZN" secondAttribute="top" id="fXK-CL-pGf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qc7-Cq-fyp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1744.8" y="298.52216748768473"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="SFJ-Ca-uYx">
             <objects>
                 <viewController id="Fmy-yh-RVL" sceneMemberID="viewController">
@@ -174,6 +227,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="D0GQ9Jl.jpg" width="463" height="463"/>
         <image name="Heart.png" width="30" height="30"/>
     </resources>
 </document>
